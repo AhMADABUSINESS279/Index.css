@@ -50,3 +50,30 @@ p {
     display: block;
     font-size: 1.1em;
 }
+.produits {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card {
+    background: #121212;
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px solid #222;
+}
+
+.card h3 {
+    color: #00d4ff;
+}
+
+.buy-btn {
+    display: inline-block;
+    margin-top: 10px;
+    background: #25D366;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+}
